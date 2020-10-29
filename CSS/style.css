@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+header ul {
+    float:right;
+    color: white;
+}
+
+header li {
+    padding: 0px 5px;
+    display: inline-block;
+    
+}
+
+.intro{
+    padding-left: 50px;
+}
+
+#welcome {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 10px;
+}
+
+#description {
+    font-size: 24px;
+    font-family: montserrat;
+    font-style: bold;
+}
+#introParagraph {
+    font-size: 16px;
+    font-family: montserrat;
+    font-style: bold;
+    width: 700px;
+}
+
+.content{
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#mySkills{
+    width: 800px;
+    margin: auto;
+}
+
+.footer {
+    background-color:black;
+    padding: 10px;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:200px;  
+   
+}
+
+.profile{
+    width: 500px;
+    padding: 25px;
+    
+}
+
+.aboutMe {
+    height:100%;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .container {
+    min-height:100%;
+    position:relative;
+    font-family: montserrat;
+ }
+
+ .myWork {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "travel annarose hair";
+}
+
+ .TravelApp {
+     width: 500px;
+     font-size: 24px;
+     grid-area: travel
+ }
+
+ .AnnaRose {
+    width: 500px;
+    font-size: 24px;
+    grid-area: annarose
+}
+
+.HairApp {
+    width: 500px;
+    font-size: 24px;
+    grid-area: hair
+}
+ .myWorkImg {
+     width: 500px;
+ }
+
+ @media only screen and (max-width: 600){
+    
+ }
+
