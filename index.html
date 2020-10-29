@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <header>
-                <img src="Images/Portfolio Logo.png">
+        <header id="scrollHeader">
+                <img id="logo" src="Images/Portfolio Logo.png">
             <ul>
-                <li> WORK<li>
-                <li> ABOUT<li>
-                <li> RESUME <li>
+                <li> <a href="#scrollWork">WORK</a><li>
+                <li> <a href="#scrollAbout">ABOUT</a><li>
+                    <li> <a href="file:///Users/annambali/Downloads/Anna%20Mbali%20Resume%20UX.pdf">RESUME</a><li>
             </ul>
         </header>
     <section class="intro">
@@ -22,7 +22,7 @@
         <p id="introParagraph">I'm a resourceful self starter striving to create unforgettable digital experiences through prioritizing the user and turning challenges into evolutionary design solutions. I'm driven by work that has a meaningful impact on lives. Read More.</p>
 
     </section>
-     <section class="aboutMe"> 
+     <section class="aboutMe" id="scrollAbout"> 
             <div class="content">
                 <img class="profile" src= "Images/IMG_8748.JPG">
                 <p id="mySkills">I am a Product Designer specializing in UX/UI with proficiency in creating delightful user experiences through user-centric design processes including research, ideation, prototyping, and testing. My journey has equipped me with a diverse and well-rounded background in psychology, wellness, and program management. I'm a swiss army knife of knowledge and experiences.
@@ -35,7 +35,7 @@
             </div>
      </section>
 
-    <section class="myWork">
+    <section class="myWork" id="scrollWork">
             <div class="TravelApp">
                 <img class="myWorkImg" src= "Images/TravelApp.png">
                 <h3>Travel App</h3>
@@ -65,4 +65,5 @@
     </footer>
 </div>
 </body>
+<script src="js/index.js"></script>
 </html>
