@@ -46,7 +46,7 @@ header li {
 }
 
 .content{
-    padding: 100px;
+    padding: 10px;
     display: grid;
     grid-template-rows: 800px;
     grid-template-columns: 1fr 1fr;
