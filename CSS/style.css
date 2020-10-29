@@ -46,14 +46,20 @@ header li {
 }
 
 .content{
-    padding-bottom: 20px;
-    text-align: center;
+    padding: 100px;
+    display: grid;
+    grid-template-rows: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "picture mySkills";
+
 
 }
 
 #mySkills{
-    width: 800px;
-    margin: auto;
+    grid-area: mySkills;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2em;
 }
 
 .footer {
@@ -69,7 +75,9 @@ header li {
 
 .profile{
     width: 500px;
-    padding: 25px;
+    padding: 25px 100px;
+    grid-area: picture;
+
     
 }
 
@@ -77,9 +85,7 @@ header li {
     height:100%;
     background-color: black;
     color: white;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    
  }
  .container {
     min-height:100%;
@@ -97,19 +103,25 @@ header li {
  .TravelApp {
      width: 500px;
      font-size: 24px;
-     grid-area: travel
+     grid-area: travel;
+     padding: 20px;
+     text-align: center;
  }
 
  .AnnaRose {
     width: 500px;
     font-size: 24px;
-    grid-area: annarose
+    grid-area: annarose;
+    padding: 20px;
+    text-align: center;
 }
 
 .HairApp {
     width: 500px;
     font-size: 24px;
-    grid-area: hair
+    grid-area: hair;
+    padding: 20px;
+    text-align: center;
 }
  .myWorkImg {
      width: 500px;
