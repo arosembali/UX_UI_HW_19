@@ -123,9 +123,10 @@ header li {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  a:hover, a:active #readMore {
     color: tan;
   }
+ 
 
  @media only screen and (max-width: 600){
     
