@@ -9,7 +9,7 @@ body{
 header {
     width: 100%;
     background-color: black;
-    text-align: center;
+    text-align: left;
 }
 
 header ul {
@@ -18,7 +18,7 @@ header ul {
 }
 
 header li {
-    padding: 0px 5px;
+    padding: 10px 15px 0;
     display: inline-block;
     
 }
@@ -66,7 +66,7 @@ header li {
     background-color:black;
     padding: 10px;
     color: white;
-    position:absolute;
+    position: relative;
     bottom:0;
     width:100%;
     height:200px;  
@@ -88,7 +88,6 @@ header li {
     
  }
  .container {
-    min-height:100%;
     position:relative;
     font-family: montserrat;
  }
@@ -140,7 +139,16 @@ header li {
   }
  
 
- @media only screen and (max-width: 600){
-    
+ @media only screen and (max-width: 700px){
+    .myWork{
+        min-height: 1622px;
+    grid-gap: 187px;
+    grid-template-areas: "travel"
+                 "annarose" 
+                 "hair";
+    }
+    .myWork div {
+        min-height: 200px;
+    }
  }
 
